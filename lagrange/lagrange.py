@@ -26,7 +26,6 @@ for i in range(len(xplt)) :
         yp += y[j] * p
     yplt.append(yp)
 
-print(xplt)
 print(yplt)
 
 plt.plot(x, y, 'bo')
