@@ -2,9 +2,9 @@ import numpy as np
 from functions import *
 
 
-t = [0, 10, 15, 20, 22.5, 30]
-vt = [0, 227.04, 362.72, 517.35, 602.97, 901.67]
-tcari = 16
+t = [5.0, 10.0, 15.0, 20.0]
+vt = [40.0, 30.0, 25.0, 40.0]
+tcari = 12
 points = [2,3,4,5]
 vtcari0 = 0
 

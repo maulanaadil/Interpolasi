@@ -2,8 +2,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Nilai X Dan Y
-x = [1, 4, 7, 10]
-y = [3, 5, 9, 16]
+x = [5.0, 10.0, 15.0, 20.0]
+y = [40.0, 30.0, 25.0, 40.0]
 
 m = len(x)
 

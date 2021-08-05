@@ -1,5 +1,3 @@
-# newton gregory maju
-
 # membuat function temporary
 def u_cal(u, n):
 
