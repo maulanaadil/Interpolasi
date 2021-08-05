@@ -2,15 +2,15 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Nilai X Dan Y
-x = [0, 20]
-y = [26.0, 48.6]
+x = [1, 4, 7, 10]
+y = [3, 5, 9, 16]
 
 m = len(x)
 
 #Derajat dari fungsi
 n = m - 1
 
-xp = 20
+xp = 5
 yp = 0
 
 xplt = np.linspace(x[0], x[-1])
@@ -26,7 +26,7 @@ for i in range(len(xplt)) :
         yp += y[j] * p
     yplt.append(yp)
 
-print(yplt)
+print('Jadi nilai hampiram y : %.3f'%yplt[22])
 
 plt.plot(x, y, 'bo')
 plt.plot(xplt, yplt, 'r-')
